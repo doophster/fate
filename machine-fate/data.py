@@ -1,6 +1,9 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import sqlite3
 import json
+import requests
+response = requests.get("https://doophster.github.io/fate/")
+print(response.text)
 from datetime import datetime
 from urllib.parse import urlparse, parse_qs
 import os
