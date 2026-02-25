@@ -10,7 +10,7 @@ const superstitionKey = currentPage.replace('-result.html', '');
 const messages = {
     ladder: {
         fortune:    'You pass through unscathed. The ladder holds no power over you today.',
-        misfortune: 'You cross through, and something shifts. The tale whispers: it told you so.'
+        misfortune: 'You cross through, and something shifts. The tale reigns true?.'
     },
     mirror: {
         fortune:    'The mirror breaks, but you feel no different. Seven years will pass as they always do.',
