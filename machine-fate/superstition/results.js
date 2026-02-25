@@ -63,7 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
             <span class="result-label fortune">fortune</span>
             <h2 class="result-heading fortune">Fate smiles.</h2>
             <p class="result-text">${msg?.fortune || 'Fortune smiles upon you.'}</p>
-            <p class="algorithm-note">outcome determined by Math.random()</p>
         `;
         resultDisplay.classList.add('fortune');
     } else if (outcome === 'misfortune') {
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', function () {
             <span class="result-label misfortune">misfortune</span>
             <h2 class="result-heading misfortune">Fate frowns.</h2>
             <p class="result-text">${msg?.misfortune || 'Misfortune shadows your steps.'}</p>
-            <p class="algorithm-note">outcome determined by Math.random()</p>
         `;
         resultDisplay.classList.add('misfortune');
     } else {
@@ -79,7 +77,6 @@ document.addEventListener('DOMContentLoaded', function () {
             <span class="result-label">uncertain</span>
             <h2 class="result-heading">The air shifts.</h2>
             <p class="result-text">You cannot tell what has changed.</p>
-            <p class="algorithm-note">outcome determined by Math.random()</p>
         `;
     }
 });
