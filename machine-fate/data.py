@@ -6,7 +6,7 @@ from urllib.parse import urlparse, parse_qs
 import os
 
 # HOW TO RUN THIS:
-#   1. open terminal in the /machine folder
+#   1. open terminal in the /machine-fate folder
 #   2. type:  python3 data.py
 #   3. server starts at http://localhost:5000
 #   4. open index.html in your browser and play
