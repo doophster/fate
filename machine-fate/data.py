@@ -48,7 +48,7 @@ def init_db():
 
 def get_db():
     # returns a connection to the database
-    # row_factory lets us access columns by name (row['outcome'])
+    # row_factory allows access to columns by name (row['outcome'])
     # instead of just by index (row[1])
     conn = sqlite3.connect('folklore_data.db')
     conn.row_factory = sqlite3.Row
@@ -76,7 +76,7 @@ def error_response(handler, message, status=400):
 
 # request handler
 # this is the main class that receives requests
-# from your html pages and figures out what to do
+# from html pages and figures out what to do
 
 class FolkloreHandler(BaseHTTPRequestHandler):
 
