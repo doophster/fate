@@ -44,9 +44,7 @@ def init_db():
     conn.close()
 
 
-# =============================================
 # helper functions
-# =============================================
 
 def get_db():
     # returns a connection to the database
@@ -76,11 +74,9 @@ def error_response(handler, message, status=400):
     json_response(handler, {'error': message, 'success': False}, status)
 
 
-# =============================================
 # request handler
 # this is the main class that receives requests
 # from your html pages and figures out what to do
-# =============================================
 
 class FolkloreHandler(BaseHTTPRequestHandler):
 
@@ -144,9 +140,7 @@ class FolkloreHandler(BaseHTTPRequestHandler):
             error_response(self, 'not found', 404)
 
 
-    # =============================================
     # endpoint handlers — one function per api route
-    # =============================================
 
     def handle_record(self, data):
         # pull fields out of the incoming json
