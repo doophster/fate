@@ -2,7 +2,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const outcome = urlParams.get('outcome');
 
-/* determine which superstition this is based on the URL */
+/* determines which superstition this is based on the URL */
 const currentPage = window.location.pathname.split('/').pop();
 const superstitionKey = currentPage.replace('-result.html', '');
 
