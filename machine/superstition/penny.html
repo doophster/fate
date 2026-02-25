@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Penny</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <div id="luck-bar">
+        <span class="luck-label">your fate</span>
+        <div class="luck-track">
+            <div class="luck-fill"></div>
+        </div>
+        <span class="luck-score">luck: 0</span>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="superstition-card">
+            <div class="card-header">
+                <h1>The Penny</h1>
+                <p class="folklore-text">&#8220;Find a penny heads up, pick it up — all day long you'll have good luck.&#8221;</p>
+            </div>
+
+            <div class="card-image-area">
+                <img src="penny.png" alt="The Penny">
+            </div>
+
+            <div class="interaction-area">
+                <button class="action-button" onclick="performAction('penny')">
+                    pick up the penny
+                </button>
+            </div>
+        </div>
+
+        <a href="../index.html" class="back-link">&#8592; return home</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="luck.js"></script>
+</body>
+</html>

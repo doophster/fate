@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Ladder</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <div id="luck-bar">
+        <span class="luck-label">your fate</span>
+        <div class="luck-track">
+            <div class="luck-fill"></div>
+        </div>
+        <span class="luck-score">luck: 0</span>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="superstition-card">
+            <div class="card-header">
+                <h1>The Ladder</h1>
+                <p class="folklore-text">&#8220;Walk beneath a ladder and misfortune follows.&#8221;</p>
+            </div>
+
+            <div class="card-image-area">
+                <img src="ladder.png" alt="The Ladder">
+            </div>
+
+            <div class="interaction-area">
+                <button class="action-button" onclick="performAction('ladder')">
+                    walk under the ladder
+                </button>
+            </div>
+        </div>
+
+        <a href="../index.html" class="back-link">&#8592; return home</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="luck.js"></script>
+</body>
+</html>

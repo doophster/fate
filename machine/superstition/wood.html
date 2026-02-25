@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Wood</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+    <div id="luck-bar">
+        <span class="luck-label">your fate</span>
+        <div class="luck-track">
+            <div class="luck-fill"></div>
+        </div>
+        <span class="luck-score">luck: 0</span>
+    </div>
+
+    <div class="page-wrapper">
+        <div class="superstition-card">
+            <div class="card-header">
+                <h1>The Wood</h1>
+                <p class="folklore-text">&#8220;A jinx has occurred — knock on wood three times to keep misfortune at bay.&#8221;</p>
+            </div>
+
+            <div class="card-image-area">
+                <img src="wood.jpeg" alt="The Wood">
+            </div>
+
+            <div class="interaction-area">
+                <button class="action-button" onclick="performAction('wood')">
+                    knock on wood
+                </button>
+            </div>
+        </div>
+
+        <a href="../index.html" class="back-link">&#8592; return home</a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="luck.js"></script>
+</body>
+</html>
